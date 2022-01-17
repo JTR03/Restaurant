@@ -4,95 +4,97 @@ const data = [
         title: 'Pancakes',
         category: 'breakfast',
         price: 25.00,
-        img:' ',
+        img:'../images/pancake.jpg',
         description:'' 
     },
     {
         id:2,
-        title: 'Pancakes',
+        title: 'Apple cinnamon custard cake',
         category: 'desserts',
         price: 35.00,
-        img:' ',
+        img:'../images/cake.jpg',
         description:'' 
     },
     {
         id:3,
-        title: 'Pancakes',
+        title: 'roasted potatoes',
         category: 'dinner',
         price: 55.00,
-        img:' ',
+        img:'../images/diner.jpg',
         description:'' 
     },
     {
         id:4,
-        title: 'Pancakes',
+        title: 'breakfast wrap',
         category: 'breakfast',
         price: 25.00,
-        img:' ',
+        img:'../images/wrap.jpg',
         description:'' 
     },
     {
         id:5,
-        title: 'Ice cream',
+        title: 'Assorted Ice cream',
         category: 'dessert',
         price: 15.00,
-        img:' ',
+        img:'../images/dess.jpg',
         description:'' 
     },
     {
         id:6,
-        title: 'Pancakes',
+        title: 'fried rice',
         category: 'dinner',
         price: 25.00,
-        img:' ',
+        img:'../images/dinn.jpg',
         description:'' 
     },
     {
         id:7,
-        title: 'Pancakes',
+        title: 'French Toast',
         category: 'breakfast',
         price: 25.00,
-        img:' ',
+        img:'../images/toast.jpg',
         description:'' 
     },
     {
         id:8,
-        title: 'Pancakes',
+        title: 'chocolate Mouse',
         category: 'dessert',
         price: 25.00,
-        img:' ',
+        img:'../images/dessert.jpg',
         description:'' 
     },
     {
         id:9,
-        title: 'Pancakes',
+        title: 'Pasta',
         category: 'dinner',
         price: 25.00,
-        img:' ',
+        img:'../images/dinner.jpg',
         description:'' 
     },
     {
         id:10,
-        title: 'Pancakes',
+        title: 'chicken stew',
         category: 'lunch',
         price: 25.00,
-        img:' ',
+        img:'../images/lun.jpg',
         description:'' 
     },
     {
         id:11,
-        title: 'Pancakes',
+        title: 'roasted lamb chop',
         category: 'lunch',
         price: 25.00,
-        img:' ',
+        img:'../images/Lunch.jpg',
         description:'' 
     },
     {
         id:12,
-        title: 'Pancakes',
+        title: 'Meat loaf',
         category: 'lunch',
         price: 25.00,
-        img:' ',
+        img:'../images/din.jpg',
         description:'' 
     }
 ]
+
+export default data
