@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>  
-     <div className='container'>
+     <div >
        <Categories cat={allCat} btn={fltr}/>
         <Menu menuItems={items} />
      </div>
