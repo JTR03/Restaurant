@@ -71,3 +71,20 @@ code {
   border-radius: 0.25rem;
   display: block;
 }
+
+.container {
+  width: 90wv;
+  margin: 0 auto;
+  max-width: 1170px;
+  padding: 5rem 0;
+}                           
+
+.info header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px dotted white;
+}
+
+.info h4{
+  margin-bottom: 0.5rem;
+}

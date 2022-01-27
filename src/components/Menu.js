@@ -8,13 +8,16 @@ function Menu({menuItems}) {
                 return(
                     <article key={id} className='menuItem'>
                         <img src={img} alt={title} className='image' />
-                        <div>
-                            <h4>
+                        <div className='info'>
+                            <header>
+                                  <h4>
                                 {title}
                             </h4>
                             <h4>
                                 R {price}
                             </h4>
+                            </header>
+                          
                             <p>{description}</p>
                         </div>
                     </article>

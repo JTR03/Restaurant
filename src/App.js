@@ -20,11 +20,14 @@ function App() {
   }
 
   return (
-    <div className="App">  
-     <Categories cat={allCat} btn={fltr}/>
-    <Menu menuItems={items} />
+    <>  
+     <div className='container'>
+       <Categories cat={allCat} btn={fltr}/>
+        <Menu menuItems={items} />
+     </div>
+     
  
-    </div>
+    </>
   );
 }
 
